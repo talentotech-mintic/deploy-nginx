@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: ejm-deployment
+  labels:
+    app: app-ejemplo
+
+spec:
+  selector:
+    matchLabels:
+      proyecto: app-nginx
+  replicas: 1
+
+  template:
+    metadata:
+      name: nginx
+      labels:
+        proyecto: app-nginx
+    
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
