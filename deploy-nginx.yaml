@@ -10,7 +10,7 @@ spec:
   type: LoadBalancer
   selector:
     proyecto: app-nginx
-
+//Comentario Ricardo Castro
   ports:
     - protocol: TCP
       port: 80
