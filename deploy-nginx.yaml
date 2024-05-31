@@ -39,7 +39,7 @@ spec:
 
   template:
     metadata:
-      name: nginx
+      name: nginx/latest
       labels:
         proyecto: app-nginx
 
