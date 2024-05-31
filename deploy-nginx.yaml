@@ -5,7 +5,7 @@ metadata:
   name: svc-app-ejemplo
   labels: 
     app: app-ejemplo
-
+//Este es un comentario
 spec:
   type: LoadBalancer
   selector:
