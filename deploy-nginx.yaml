@@ -1,3 +1,4 @@
+# Bloque del servicio
 apiVersion: v1
 kind: Service
 
@@ -6,6 +7,7 @@ metadata:
   labels: 
     app: app-ejemplo
 
+# tipo de servicio LoladBalancer
 spec:
   type: LoadBalancer
   selector:
