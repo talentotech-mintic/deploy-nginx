@@ -48,3 +48,4 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
+# ------------- comment by mateo rosas
