@@ -1,3 +1,5 @@
+# Archivo de despliegue de PVC
+
 apiVersion: v1
 kind: PersistentVolumeClaim
 
